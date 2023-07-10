@@ -44,15 +44,15 @@ body {
 .all-songs .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .all-songs .song {
     background-color: #121212;
     border-radius: 8px;
-    min-width: 200px;
-    margin-right: 8px;
+    min-width: 210px;
+    margin-right: 16px;
     margin-bottom: 16px;
     color: white;
 }
@@ -76,4 +76,8 @@ body {
 
 .song p.title {
     font-weight: bold;
+}
+
+.all-songs .add-to-playlist {
+    float: right;
 }
