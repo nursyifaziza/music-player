@@ -1,0 +1,76 @@
+body {
+    background-color: #000000;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+
+.most-played-songs , .all-songs {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 80px;
+
+}
+
+.most-played-song {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #272727;
+}
+
+.most-played-song:hover {
+    background-color: #232323;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.most-played-song.header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.most-played-song .title img {
+    float: left;
+}
+
+.most-played-song .title p {
+    float: right;
+    flex-wrap: wrap;
+}
+
+.all-songs .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.all-songs .song {
+    background-color: #121212;
+    border-radius: 8px;
+    min-width: 240px;
+    margin-right: 8px;
+    color: white;
+}
+
+.all-songs .song:hover {
+    cursor: pointer;
+    background-color: #232323;
+    transition: 0.4s;
+}
+
+.song img {
+    border-radius: 4px;
+    width: -webkit-fill-available;
+    padding: 8px;
+}
+
+.song p {
+    padding: 0 16px;
+}
+
+.song p.title {
+    font-weight: bold;
+}
