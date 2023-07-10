@@ -45,13 +45,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .all-songs .song {
     background-color: #121212;
     border-radius: 8px;
-    min-width: 240px;
+    min-width: 200px;
     margin-right: 8px;
+    margin-bottom: 16px;
     color: white;
 }
 
@@ -64,6 +66,7 @@ body {
 .song img {
     border-radius: 4px;
     width: -webkit-fill-available;
+    max-width: 200px;
     padding: 8px;
 }
 
